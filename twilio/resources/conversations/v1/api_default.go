@@ -454,7 +454,7 @@ func createConversationsParticipants(ctx context.Context, d *schema.ResourceData
 	d.SetId(strings.Join(idParts, "/"))
 	d.Set("sid", *r.Sid)
 
-	return updateConversationsParticipants(ctx, d, m)
+	return nil
 }
 
 func deleteConversationsParticipants(ctx context.Context, d *schema.ResourceData, m interface{}) diag.Diagnostics {
