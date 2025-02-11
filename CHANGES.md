@@ -1,5 +1,11 @@
 terraform-provider-twilio changelog
 ====================
+[2025-02-11] Version 1.0.0
+----------------------------
+**Api**
+- Fix create conversation message participants calling update after operation
+
+
 [2024-06-06] Version 0.18.46
 ----------------------------
 **Api**
